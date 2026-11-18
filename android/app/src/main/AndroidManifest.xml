@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Acesso à API da Defesa Civil RS e aos mapas (OpenStreetMap). -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="dados_hidrometeorologicos"
+        android:label="Hidro Vales"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
